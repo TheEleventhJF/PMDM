@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tContAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/bResetAll"
+        app:layout_constraintEnd_toStartOf="@+id/bResetAll"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bResetAll" />
+
+    <Button
+        android:id="@+id/bResetAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET ALL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tContAll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <TextView
+        android:id="@+id/tCont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/bMas1_1"
+        app:layout_constraintEnd_toStartOf="@+id/bMas1_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bMas1_1" />
+
+    <Button
+        android:id="@+id/bMas1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="@+id/bReset1"
+        app:layout_constraintEnd_toStartOf="@+id/bReset1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tCont1"
+        app:layout_constraintTop_toTopOf="@+id/bReset1" />
+
+    <Button
+        android:id="@+id/bReset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTET"
+        app:layout_constraintBottom_toTopOf="@+id/bReset2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bMas1_1"
+        app:layout_constraintTop_toBottomOf="@+id/bResetAll" />
+
+    <TextView
+        android:id="@+id/tCont2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/bMas1_2"
+        app:layout_constraintEnd_toStartOf="@+id/bMas1_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bMas1_2" />
+
+    <Button
+        android:id="@+id/bMas1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="@+id/bReset2"
+        app:layout_constraintEnd_toStartOf="@+id/bReset2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tCont2"
+        app:layout_constraintTop_toTopOf="@+id/bReset2" />
+
+    <Button
+        android:id="@+id/bReset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        app:layout_constraintBottom_toTopOf="@+id/bReset3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bMas1_2"
+        app:layout_constraintTop_toBottomOf="@+id/bReset1" />
+
+    <TextView
+        android:id="@+id/tCont3"
+        android:layout_width="7dp"
+        android:layout_height="18dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/bMas1_3"
+        app:layout_constraintEnd_toStartOf="@+id/bMas1_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bMas1_3" />
+
+    <Button
+        android:id="@+id/bMas1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="@+id/bReset3"
+        app:layout_constraintEnd_toStartOf="@+id/bReset3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tCont3"
+        app:layout_constraintTop_toTopOf="@+id/bReset3" />
+
+    <Button
+        android:id="@+id/bReset3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        app:layout_constraintBottom_toTopOf="@+id/bReset4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bMas1_3"
+        app:layout_constraintTop_toBottomOf="@+id/bReset2" />
+
+    <TextView
+        android:id="@+id/tCont4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/bMas1_4"
+        app:layout_constraintEnd_toStartOf="@+id/bMas1_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bMas1_4" />
+
+    <Button
+        android:id="@+id/bMas1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        app:layout_constraintBottom_toBottomOf="@+id/bReset4"
+        app:layout_constraintEnd_toStartOf="@+id/bReset4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tCont4"
+        app:layout_constraintTop_toTopOf="@+id/bReset4" />
+
+    <Button
+        android:id="@+id/bReset4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bMas1_4"
+        app:layout_constraintTop_toBottomOf="@+id/bReset3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

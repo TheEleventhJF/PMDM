@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Chema/Estudios/DAM2_V/PMDM/UT02/Ejemplo1/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Chema/Estudios/DAM2_V/PMDM/UT02/Ejemplos/app/src/main/res/layout/activity_ejemplo2.xml" value="0.27898550724637683" />
+        <entry key="..\:/Chema/Estudios/DAM2_V/PMDM/UT02/Ejemplos/app/src/main/res/layout/activity_lanzador.xml" value="0.2749094202898551" />
+        <entry key="..\:/Chema/Estudios/DAM2_V/PMDM/UT02/Ejemplos/app/src/main/res/layout/activity_piedra_papel_tijera.xml" value="0.2749094202898551" />
+        <entry key="..\:/Chema/Estudios/DAM2_V/PMDM/UT02/Ejemplos/app/src/main/res/layout/activity_receptor.xml" value="0.2749094202898551" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
